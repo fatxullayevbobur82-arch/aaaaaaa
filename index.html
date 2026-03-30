@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <title>Mars Counter</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="h-screen flex items-center justify-center bg-black text-white">
+
+  <div class="bg-gray-900 p-10 rounded-2xl shadow-2xl text-center space-y-6 w-80">
+
+    <h1 class="text-xl text-gray-400">Mars Counter</h1>
+
+    <div id="count" class="text-6xl font-bold text-orange-400">
+      0
+    </div>
+
+    <div class="flex gap-4">
+      <button id="minus" class="w-full bg-red-500 hover:bg-red-600 p-2 rounded-xl">
+        -1
+      </button>
+
+      <button id="plus" class="w-full bg-green-500 hover:bg-green-600 p-2 rounded-xl">
+        +1
+      </button>
+    </div>
+
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
